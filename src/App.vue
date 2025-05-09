@@ -22,7 +22,7 @@ import GradientBottom from "./components/bg/GradientBottom.vue";
   overflow: hidden;
 }
 
-.bg{
-  z-index:0;
+.bg {
+  z-index: 0;
 }
 </style>
