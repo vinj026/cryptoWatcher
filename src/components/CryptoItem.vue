@@ -63,11 +63,6 @@ onMounted(async () => {
   }
 });
 
-// Seleksi seluruh kolom pertama (th + td) dan beri class 'column-highlight'
-document.querySelectorAll("th:nth-child(1), td:nth-child(1)").forEach((el) => {
-  el.classList.add("column-highlight");
-});
-
 const priceFormat = (price) => {
   return price.toLocaleString("en-US");
 };
@@ -165,7 +160,6 @@ td {
     position: sticky;
     left: 0;
     background-color: #0a0a09;
-    /* Warna yang kamu minta */
     z-index: 1;
     text-align: left;
     padding: 0px 20px;
